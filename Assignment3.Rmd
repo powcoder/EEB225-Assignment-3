@@ -1,0 +1,139 @@
+---
+title: "EEB225 Assignment 3"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+30 marks total
+
+## Introduction
+**Goal:** The goal of this assignment is to use t-tests to answer the following two questions about
+Overall Rating Scores of professors:  
+
+    1) Do professors who are tagged “Hilarious”, receive higher ratings than professors who are not tagged “Hilarious”? 
+    2) Does day of the week influence professor ratings? This 2nd question can be answered by analysis of data in a second data set that is posted called Day_rate.
+
+By all means, work with classmates on this assignment though the final written copy should be done independently.   
+
+**Organizing your data:** Do your analysis using this RMardown document as a scaffold. Use the Rate my Professor data to answer this first question above and the Day_rate data to answer the second question above. The Day_rate data is a data set which shows the overall ratings of professors *simultaneously* teaching two sections of the same course on two different days of the week: either early in the week (M,T or W) or late in the week (Fridays).  
+
+**Data Analysis:** Use the appropriate t-test to answer each study question. Be sure to read Chapter 12 of your textbook, using it as a guide for making decisions about which test to use to analyze your data and how to examine your data with regard to test assumptions.  
+
+**Written Report:** Each test should be summarized briefly. Follow the outline of the RMarkdown document.
+
+### Question 1: Does the Hilarious tag affect the Overall Rating of professors?
+```{r}
+#Import the data
+```
+
+#### Introduction
+1. In 1-2 sentences state the purpose of the analysis. Be sure to identify the response and explanatory variables. [2 marks]  
+
+2. Explore the data. Examine a summary of the data frame, the types of variables and the number of observations in each group [1 mark]
+```{r}
+#summary()
+#class()
+#table()
+```
+
+#### Statistical methods
+
+3. What test should you use? Provide the code below. [1 mark]
+
+```{r}
+
+```
+
+4. What are the key assumptions of the test?  [1 mark]
+
+5.  How does your data meet or violate these test assumptions? Where applicable, assess normality visually by creating histograms of the variables by group. If applicable, use the appropriate test to evaluate equality of variance. State which test(s) you performed and interpret their results. [2 marks]
+
+```{r}
+#If necessary, create histograms and interpret them below
+```
+
+```{r}
+#If necessary, test equality of variances and interpret below
+```
+
+
+6. State your statistical hypotheses. (These are the hypotheses which identify the parameters of interest). [1 point]  
+
+#### Results
+7. Show your data using boxplots. Make sure you include a title the axes are properly labeled. [2 points]
+
+```{r}
+
+```
+
+8. Summarize your sample statistics in a table such as shown in Table 12.3-1 on page 335 of your textbook [2 points]. 
+
+#### Interpretation
+
+9. Give the statistical results [1 point]. Since you have already described any results pertaining to tests of assumptions, all you need here is the final test statistic and p-value. You may write this in a sentence.
+
+
+10. State your statistical conclusions [1 point].
+
+### Question 2: Does day of the week influence professor ratings?
+
+#### Introduction
+11. In 1-2 sentences state the purpose of the analysis. Be sure to identify the response and explanatory variables. [2 marks]  
+
+12. Explore the data. Examine a summary of the data frame, the types of variables and the number of observations in each group. [1 mark]
+```{r}
+#summary()
+#class()
+#table()
+```
+
+#### Statistical methods
+
+13. What test should you use? Provide the code below. [1 mark]
+
+```{r}
+
+```
+
+14. What are the key assumptions of the test?  [1 mark]
+
+15. How does your data meet or violate these test assumptions? Where applicable, assess normality visually by creating histograms of the variables by group. If applicable, use the appropriate test to evaluate equality of variance. State which test(s) you performed and interpret their results. [2 marks]
+
+```{r}
+#If necessary, create histograms and interpret them below
+```
+
+```{r}
+#If necessary, test equality of variances and interpret below
+```
+
+
+16. State your statistical hypotheses. (These are the hypotheses which identify the parameters of interest). [1 point]  
+
+#### Results
+17. Show your data using boxplots. Make sure you include a title the axes are properly labeled. [2 points]
+
+```{r}
+
+```
+
+18. Summarize your sample statistics in a table such as shown in Table 12.3-1 on page 335 of your textbook [2 points]. 
+
+#### Interpretation
+
+19. Give the statistical results. Since you have already described any results pertaining to tests of assumptions, all you need here is the final test statistic and p-value. [1 point]
+
+
+20. State your statistical conclusions [1 point].
+
+
+21) For *one test only*, include hand calculations of the test statistic. You may either use R or hand write. If you are writing them by hand, please put these on a separate page attached to the end of your report. [2 points]
+
+```{r}
+
+```
+
